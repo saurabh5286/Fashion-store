@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deshmukh Shoe Center - Premium Footwear Collection</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#3B82F6',
+secondary: '#10B981'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+.product-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+gap: 2rem;
+}
+.feature-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 2rem;
+}
+</style>
+</head>
+<body class="bg-white min-h-screen">
+<header class="fixed w-full bg-white shadow-sm z-50">
+<nav class="container mx-auto px-4 py-4 flex items-center justify-between">
+<div class="flex items-center space-x-8">
+<a href="#" class="text-3xl font-['Pacifico'] text-primary">Deshmukh Shoe Center</a>
+<div class="hidden md:flex space-x-6">
+<a href="#" class="text-gray-700 hover:text-primary">New Arrivals</a>
+<a href="#" class="text-gray-700 hover:text-primary">Men</a>
+<a href="#" class="text-gray-700 hover:text-primary">Women</a>
+<a href="#" class="text-gray-700 hover:text-primary">Kids</a>
+<a href="#" class="text-gray-700 hover:text-primary">Sale</a>
+</div>
+</div>
+<div class="flex items-center space-x-6">
+<div class="relative hidden md:block">
+<input type="text" placeholder="Search products..." class="w-64 pl-10 pr-4 py-2 rounded-full bg-gray-100 focus:outline-none focus:ring-2 focus:ring-primary">
+<i class="ri-search-line absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+</div>
+<div class="flex items-center space-x-4">
+<button class="w-10 h-10 flex items-center justify-center text-gray-700 hover:text-primary">
+<i class="ri-user-line text-xl"></i>
+</button>
+<button class="w-10 h-10 flex items-center justify-center text-gray-700 hover:text-primary relative">
+<i class="ri-shopping-bag-line text-xl"></i>
+<span class="absolute -top-1 -right-1 w-5 h-5 bg-primary text-white text-xs rounded-full flex items-center justify-center">3</span>
+</button>
+</div>
+</div>
+</nav>
+</header>
+<main class="pt-20">
+<section class="relative h-[600px] bg-cover bg-center" style="background-image: url('https://public.readdy.ai/ai/img_res/2bbcd08a1593cecee940e7cf6399acc0.jpg')">
+<div class="absolute inset-0 bg-black bg-opacity-40"></div>
+<div class="container mx-auto px-4 h-full flex items-center relative">
+<div class="max-w-2xl text-white">
+<h1 class="text-5xl font-bold mb-6">Step into Style</h1>
+<p class="text-xl mb-8">Discover our new collection of premium footwear designed for comfort and style.</p>
+<button class="bg-primary text-white px-8 py-3 rounded-button text-lg font-semibold hover:bg-opacity-90 transition-all cursor-pointer">Shop Now</button>
+</div>
+</div>
+</section>
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-4">
+<h2 class="text-3xl font-bold text-center mb-12">Top Selling Products</h2>
+<div class="product-grid">
+<div class="bg-white rounded-lg shadow-sm overflow-hidden group">
+<div class="relative aspect-square">
+<img src="https://public.readdy.ai/ai/img_res/fab774ebb42cf6d10cc97e06679a6a31.jpg" alt="Product" class="w-full h-full object-cover">
+<div class="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
+<button class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<i class="ri-eye-line"></i>
+</button>
+<button class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<i class="ri-shopping-cart-line"></i>
+</button>
+</div>
+</div>
+<div class="p-4">
+<h3 class="font-semibold mb-2">Ultra Boost Pro</h3>
+<div class="flex items-center gap-2 mb-2">
+<div class="flex text-yellow-400">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-half-fill"></i>
+</div>
+<span class="text-sm text-gray-500">(128)</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-lg font-bold">$189.99</span>
+<span class="text-sm text-green-500">In Stock</span>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm overflow-hidden group">
+<div class="relative aspect-square">
+<img src="https://public.readdy.ai/ai/img_res/baa30263caccdbbab43b4137706f506d.jpg" alt="Product" class="w-full h-full object-cover">
+<div class="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
+<button class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<i class="ri-eye-line"></i>
+</button>
+<button class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<i class="ri-shopping-cart-line"></i>
+</button>
+</div>
+</div>
+<div class="p-4">
+<h3 class="font-semibold mb-2">Air Max Elite</h3>
+<div class="flex items-center gap-2 mb-2">
+<div class="flex text-yellow-400">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+<span class="text-sm text-gray-500">(256)</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-lg font-bold">$159.99</span>
+<span class="text-sm text-green-500">In Stock</span>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm overflow-hidden group">
+<div class="relative aspect-square">
+<img src="https://public.readdy.ai/ai/img_res/2f30ae05eb7c52ca0b3e96cd3e38812a.jpg" alt="Product" class="w-full h-full object-cover">
+<div class="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
+<button class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<i class="ri-eye-line"></i>
+</button>
+<button class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<i class="ri-shopping-cart-line"></i>
+</button>
+</div>
+</div>
+<div class="p-4">
+<h3 class="font-semibold mb-2">Cloud Walker</h3>
+<div class="flex items-center gap-2 mb-2">
+<div class="flex text-yellow-400">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-line"></i>
+</div>
+<span class="text-sm text-gray-500">(89)</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-lg font-bold">$129.99</span>
+<span class="text-sm text-green-500">In Stock</span>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm overflow-hidden group">
+<div class="relative aspect-square">
+<img src="https://public.readdy.ai/ai/img_res/a90b5bd0c030c6759884c88b2b2c72fd.jpg" alt="Product" class="w-full h-full object-cover">
+<div class="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
+<button class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<i class="ri-eye-line"></i>
+</button>
+<button class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<i class="ri-shopping-cart-line"></i>
+</button>
+</div>
+</div>
+<div class="p-4">
+<h3 class="font-semibold mb-2">Speed Runner X</h3>
+<div class="flex items-center gap-2 mb-2">
+<div class="flex text-yellow-400">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-half-fill"></i>
+</div>
+<span class="text-sm text-gray-500">(167)</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-lg font-bold">$169.99</span>
+<span class="text-sm text-green-500">In Stock</span>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center mt-12">
+<button class="bg-primary text-white px-8 py-3 rounded-button text-lg font-semibold hover:bg-opacity-90 transition-all cursor-pointer">View All Products</button>
+</div>
+</div>
+</section>
+<section class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="bg-primary bg-opacity-5 rounded-lg overflow-hidden">
+<div class="grid md:grid-cols-2 gap-8 items-center">
+<div class="p-8 md:p-12">
+<h2 class="text-4xl font-bold mb-4">Spring Sale</h2>
+<p class="text-xl mb-6">Get up to 50% off on selected items</p>
+<div class="grid grid-cols-4 gap-4 mb-8">
+<div class="text-center">
+<div class="text-3xl font-bold text-primary mb-2" id="days">00</div>
+<div class="text-sm text-gray-600">Days</div>
+</div>
+<div class="text-center">
+<div class="text-3xl font-bold text-primary mb-2" id="hours">00</div>
+<div class="text-sm text-gray-600">Hours</div>
+</div>
+<div class="text-center">
+<div class="text-3xl font-bold text-primary mb-2" id="minutes">00</div>
+<div class="text-sm text-gray-600">Minutes</div>
+</div>
+<div class="text-center">
+<div class="text-3xl font-bold text-primary mb-2" id="seconds">00</div>
+<div class="text-sm text-gray-600">Seconds</div>
+</div>
+</div>
+<button class="bg-primary text-white px-8 py-3 rounded-button text-lg font-semibold hover:bg-opacity-90 transition-all cursor-pointer">Shop Now</button>
+</div>
+<div class="relative h-[400px]">
+<img src="https://public.readdy.ai/ai/img_res/b050c49bffb67d79aee1c6c2a0feb7db.jpg" alt="Sale Banner" class="w-full h-full object-cover">
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-4">
+<h2 class="text-3xl font-bold text-center mb-12">New Arrivals</h2>
+<div class="flex justify-center mb-8 space-x-4">
+<button class="px-6 py-2 rounded-full bg-primary text-white">All</button>
+<button class="px-6 py-2 rounded-full bg-white hover:bg-gray-100">Men</button>
+<button class="px-6 py-2 rounded-full bg-white hover:bg-gray-100">Women</button>
+<button class="px-6 py-2 rounded-full bg-white hover:bg-gray-100">Kids</button>
+</div>
+<div class="product-grid">
+<div class="bg-white rounded-lg shadow-sm overflow-hidden group">
+<div class="relative aspect-square">
+<img src="https://public.readdy.ai/ai/img_res/c97ee43875f3efb2852de3b8d63a8065.jpg" alt="Product" class="w-full h-full object-cover">
+<div class="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
+<button class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<i class="ri-eye-line"></i>
+</button>
+<button class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<i class="ri-shopping-cart-line"></i>
+</button>
+</div>
+</div>
+<div class="p-4">
+<h3 class="font-semibold mb-2">Luxe Runner</h3>
+<div class="flex items-center gap-2 mb-2">
+<div class="flex text-yellow-400">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-line"></i>
+</div>
+<span class="text-sm text-gray-500">(12)</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-lg font-bold">$199.99</span>
+<span class="text-sm text-green-500">New</span>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm overflow-hidden group">
+<div class="relative aspect-square">
+<img src="https://public.readdy.ai/ai/img_res/bd9ddceb46dde55156a1486855ddc7ef.jpg" alt="Product" class="w-full h-full object-cover">
+<div class="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
+<button class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<i class="ri-eye-line"></i>
+</button>
+<button class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<i class="ri-shopping-cart-line"></i>
+</button>
+</div>
+</div>
+<div class="p-4">
+<h3 class="font-semibold mb-2">Night Rider</h3>
+<div class="flex items-center gap-2 mb-2">
+<div class="flex text-yellow-400">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+<span class="text-sm text-gray-500">(8)</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-lg font-bold">$179.99</span>
+<span class="text-sm text-green-500">New</span>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm overflow-hidden group">
+<div class="relative aspect-square">
+<img src="https://public.readdy.ai/ai/img_res/71f2d842afe5c5607b4dfca532928a27.jpg" alt="Product" class="w-full h-full object-cover">
+<div class="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
+<button class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<i class="ri-eye-line"></i>
+</button>
+<button class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<i class="ri-shopping-cart-line"></i>
+</button>
+</div>
+</div>
+<div class="p-4">
+<h3 class="font-semibold mb-2">Rose Walker</h3>
+<div class="flex items-center gap-2 mb-2">
+<div class="flex text-yellow-400">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-half-fill"></i>
+</div>
+<span class="text-sm text-gray-500">(15)</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-lg font-bold">$149.99</span>
+<span class="text-sm text-green-500">New</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="feature-grid">
+<div class="text-center">
+<div class="w-16 h-16 mx-auto mb-4 flex items-center justify-center text-primary text-3xl">
+<i class="ri-truck-line"></i>
+</div>
+<h3 class="text-xl font-semibold mb-2">Free Shipping</h3>
+<p class="text-gray-600">On orders over $100</p>
+</div>
+<div class="text-center">
+<div class="w-16 h-16 mx-auto mb-4 flex items-center justify-center text-primary text-3xl">
+<i class="ri-customer-service-2-line"></i>
+</div>
+<h3 class="text-xl font-semibold mb-2">24/7 Support</h3>
+<p class="text-gray-600">Get help when you need it</p>
+</div>
+<div class="text-center">
+<div class="w-16 h-16 mx-auto mb-4 flex items-center justify-center text-primary text-3xl">
+<i class="ri-exchange-line"></i>
+</div>
+<h3 class="text-xl font-semibold mb-2">Easy Returns</h3>
+<p class="text-gray-600">30-day return policy</p>
+</div>
+<div class="text-center">
+<div class="w-16 h-16 mx-auto mb-4 flex items-center justify-center text-primary text-3xl">
+<i class="ri-shield-check-line"></i>
+</div>
+<h3 class="text-xl font-semibold mb-2">Secure Payment</h3>
+<p class="text-gray-600">100% secure checkout</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-4 max-w-3xl text-center">
+<h2 class="text-3xl font-bold mb-8">Subscribe to Our Newsletter</h2>
+<p class="text-gray-600 mb-8">Stay updated with our latest products, trends, and exclusive offers.</p>
+<form class="flex gap-4 max-w-xl mx-auto">
+<input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-button border-none bg-white focus:ring-2 focus:ring-primary">
+<button type="submit" class="bg-primary text-white px-8 py-3 rounded-button font-semibold hover:bg-opacity-90 transition-all cursor-pointer whitespace-nowrap">Subscribe</button>
+</form>
+<div class="mt-4 flex items-center justify-center gap-2">
+<input type="checkbox" id="gdpr" class="rounded text-primary focus:ring-primary">
+<label for="gdpr" class="text-sm text-gray-600">I agree to receive marketing emails</label>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-gray-900 text-white py-16">
+<div class="container mx-auto px-4">
+<div class="grid md:grid-cols-4 gap-8">
+<div>
+<h3 class="text-xl font-bold mb-4">About Us</h3>
+<p class="text-gray-400 mb-4">We're dedicated to providing the best footwear solutions for our customers.</p>
+<div class="flex space-x-4">
+<a href="#" class="text-gray-400 hover:text-white">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="#" class="text-gray-400 hover:text-white">
+<i class="ri-twitter-fill"></i>
+</a>
+<a href="#" class="text-gray-400 hover:text-white">
+<i class="ri-instagram-fill"></i>
+</a>
+</div>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-4">Quick Links</h3>
+<ul class="space-y-2">
+<li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white">Contact Us</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white">Terms & Conditions</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-4">Customer Service</h3>
+<ul class="space-y-2">
+<li><a href="#" class="text-gray-400 hover:text-white">FAQs</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white">Shipping Info</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white">Returns</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white">Size Guide</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-4">Contact Info</h3>
+<ul class="space-y-2 text-gray-400">
+<li class="flex items-center gap-2">
+<i class="ri-map-pin-line"></i>
+<span>Tedesara, rjn(C.G.)</span>
+</li>
+<li class="flex items-center gap-2">
+<i class="ri-phone-line"></i>
+<span>+91 70676 50862</span>
+</li>
+<li class="flex items-center gap-2">
+<i class="ri-mail-line"></i>
+<span>sourabhhardel@10gmail.com</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="mt-12 pt-8 border-t border-gray-800 text-center">
+<p class="text-gray-400">&copy; 2025 Deshmukh Shoe Center. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<script>
+const countDownDate = new Date().getTime() + (15 * 24 * 60 * 60 * 1000);
+const countdown = setInterval(function() {
+const
+now = new Date().getTime();
+const distance = countDownDate - now;
+const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+document.getElementById("days").innerHTML = days.toString().padStart(2, '0');
+document.getElementById("hours").innerHTML = hours.toString().padStart(2, '0');
+document.getElementById("minutes").innerHTML = minutes.toString().padStart(2, '0');
+document.getElementById("seconds").innerHTML = seconds.toString().padStart(2, '0');
+if (distance < 0) {
+clearInterval(countdown);
+document.getElementById("days").innerHTML = "00";
+document.getElementById("hours").innerHTML = "00";
+document.getElementById("minutes").innerHTML = "00";
+document.getElementById("seconds").innerHTML = "00";
+}
+}, 1000);
+</script>
+</body>
+</html>
